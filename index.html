@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>I'm Sorry Baby</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- =========================
+BACKGROUND
+========================= -->
+
+<div class="bg-blur bg1"></div>
+<div class="bg-blur bg2"></div>
+
+<div id="floating-hearts"></div>
+
+<div class="sparkles"></div>
+
+<!-- =========================
+MUSIC
+========================= -->
+
+<audio id="bgm" loop>
+
+<source src="musik.mp3" type="audio/mpeg">
+
+</audio>
+
+<!-- =========================
+PAGE 1
+OPENING
+========================= -->
+
+<section class="page active" id="page1">
+
+<div class="welcome">
+
+<img src="icon1.png" class="lotso lotso-big">
+
+<h1>
+
+Hi Baby
+
+</h1>
+
+<p>
+
+I know that lately, I’ve often made your heart feel sad. I just ask for a moment of your time to read this.
+
+</p>
+
+<button id="startBtn">
+
+Open 💌
+
+</button>
+
+</div>
+
+</section>
+
+<!-- =========================
+PAGE 2
+ENVELOPE
+========================= -->
+
+<section class="page" id="page2">
+
+    <div class="heart-meter">
+
+        <div class="meter-text">
+            <span>Your Heart</span>
+            <span id="meterValue">0%</span>
+        </div>
+
+        <div class="meter">
+            <div class="meter-fill" id="meterFill"></div>
+        </div>
+
+    </div>
+
+    <div class="envelope-area">
+
+        <img
+            src="envelope.png"
+            alt="Envelope"
+            id="envelope"
+            class="envelope-img"
+        >
+
+    </div>
+
+</section>
+
+<!-- =========================
+PAGE 3
+LOTSO
+========================= -->
+
+<section class="page" id="page3">
+
+<div class="heart-meter">
+
+<div class="meter-text">
+
+Your Heart
+
+<span>
+
+25%
+
+</span>
+
+</div>
+
+<div class="meter">
+
+<div class="meter-fill meter25"></div>
+
+</div>
+
+</div>
+
+<img src="icon2.png" class="lotso">
+
+<p>
+
+I realize that I may have disappointed you too many times. I won't make excuses. I just want to admit that I was wrong.
+
+</p>
+
+<button class="next">
+
+Next 🤍
+
+</button>
+
+</section>
+
+<!-- =========================
+PAGE 4
+LOTSO
+========================= -->
+
+<section class="page" id="page4">
+
+<div class="heart-meter">
+
+<div class="meter-text">
+
+Your Heart
+
+<span>
+
+50%
+
+</span>
+
+</div>
+
+<div class="meter">
+
+<div class="meter-fill meter50"></div>
+
+</div>
+
+</div>
+
+<img src="icon3.png" class="lotso">
+
+<p>
+
+I know that saying sorry won't instantly take away your disappointment. But I truly want to change.
+
+</p>
+
+<button class="next">
+
+Next 🤍
+
+</button>
+
+</section>
+
+<!-- =========================
+PAGE 5
+LETTER
+========================= -->
+
+<section class="page" id="page5">
+
+<div class="heart-meter">
+
+<div class="meter-text">
+
+Your Heart
+
+<span>
+
+75%
+
+</span>
+
+</div>
+
+<div class="meter">
+
+<div class="meter-fill meter75"></div>
+
+</div>
+
+</div>
+
+<div class="letter">
+
+<div class="letter-scroll">
+
+<p>
+
+Babyyyy...
+
+</p>
+
+<p>
+
+I'm truly sorry. I'm sorry for making you overthink so often. I'm sorry for repeating the same mistakes. I'm sorry that I haven't been able to be the most comfortable place for you.
+
+</p>
+
+<p>
+
+I don't promise that I'll become perfect right away. But I promise that I'll keep learning. Learning not to repeat the same mistakes. Learning to become a better partner for you.
+
+</p>
+
+<p>
+
+I just hope... you'll still give me another chance.
+
+</p>
+
+<p>
+
+I don't want to make unrealistic promises either. I just hope you'll give me the chance to show you that I can be better than I was before.
+
+</p>
+
+<p>
+
+Thank you for being patient with me all this time. I'm sorry if I often make you upset.
+
+</p>
+
+<p>
+
+I love you. Always. ❤️
+
+</p>
+
+</div>
+
+<button class="next">
+
+I Promise to Change 🤍
+
+</button>
+
+</div>
+
+</section>
+
+<!-- =========================
+PAGE 6
+ENDING
+========================= -->
+
+<section class="page" id="page6">
+
+<div class="heart-meter">
+
+<div class="meter-text">
+
+Your Heart
+
+<span>
+
+100%
+
+</span>
+
+</div>
+
+<div class="meter">
+
+<div class="meter-fill meter100"></div>
+
+</div>
+
+</div>
+
+<img src="icon4.png" class="lotso happy">
+
+<p>
+
+Thank you for reading everything. I hope that after this, we can both work together to make everything better. ❤️
+
+</p>
+
+<div class="btn-group">
+
+<button id="hugBtn">
+
+Virtual Hug 🫂
+
+</button>
+
+<button id="restartBtn">
+
+Replay 💗
+
+</button>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
